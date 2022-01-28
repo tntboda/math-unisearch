@@ -37,6 +37,7 @@ public class Main {
         }
         System.out.println("Медиана " + median);
 
+        
         //среднее арифметическое значение
         for (Integer x : fileInt) {
             avg = avg + x;
@@ -44,9 +45,11 @@ public class Main {
         }
         System.out.println("Среднее арифметическое значение " + avg / div);
 
+        
         //Наибольшая последовательность идущих подряд чисел, которая увеличивается
         System.out.println("Наибольшую последовательность идущих подряд чисел, которая увеличивается : " + RowSearcher.getIncreaseRow(fileIntCopy));
 
+        
         //Наибольшая последовательность идущих подряд чисел, которая уменьшается
         System.out.println("Наибольшую последовательность идущих подряд чисел, которая уменьшается : " + RowSearcher.getDecreaseRow(fileIntCopy));
 
